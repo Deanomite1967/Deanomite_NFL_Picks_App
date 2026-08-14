@@ -9,8 +9,8 @@ import os
 import pandas as pd
 
 # Load raw CSVs exactly as they are
-epa_2024 = pd.read_csv("C:/DraftKings/NFL/Team_EPA_2024.csv")
-epa_2025 = pd.read_csv("C:/DraftKings/NFL/Team_EPA_2025.csv")
+epa_2024 = pd.read_csv("Team_EPA_2024.csv")
+epa_2025 = pd.read_csv("Team_EPA_2025.csv")
 
 # Add season column
 epa_2024["season"] = 2024
@@ -23,8 +23,8 @@ epa_all = pd.concat([epa_2024, epa_2025], ignore_index=True)
 BASE = "C:/DraftKings/NFL/"
 
 # File paths
-DL_2024_PATH = BASE + "Team_DL_2024.csv"
-DL_2025_PATH = BASE + "Team_DL_2025.csv"
+DL_2024_PATH = "Team_DL_2024.csv"
+DL_2025_PATH = "Team_DL_2025.csv"
 
 # Mapping full names → abbreviations
 TEAM_MAP = {
@@ -83,8 +83,8 @@ dl_2025 = load_team_dl(DL_2025_PATH, 2025)
 dl_all = pd.concat([dl_2024, dl_2025], ignore_index=True)
 
 # File paths
-OL_2024_PATH = BASE + "Team_OL_2024.csv"
-OL_2025_PATH = BASE + "Team_OL_2025.csv"
+OL_2024_PATH = "Team_OL_2024.csv"
+OL_2025_PATH = "Team_OL_2025.csv"
 
 def normalize_team(name):
     name = str(name).strip()
@@ -107,8 +107,8 @@ ol_2025 = load_team_ol(OL_2025_PATH, 2025)
 ol_all = pd.concat([ol_2024, ol_2025], ignore_index=True)
 
 # File paths
-OFF_2024_PATH = BASE + "Team_Offense_2024.csv"
-OFF_2025_PATH = BASE + "Team_Offense_2025.csv"
+OFF_2024_PATH = "Team_Offense_2024.csv"
+OFF_2025_PATH = "Team_Offense_2025.csv"
 
 def normalize_team(name):
     name = str(name).strip()
@@ -131,8 +131,8 @@ off_2025 = load_team_off(OFF_2025_PATH, 2025)
 off_all = pd.concat([off_2024, off_2025], ignore_index=True)
 
 # File paths
-DEF_2024_PATH = BASE + "Team_Defense_2024.csv"
-DEF_2025_PATH = BASE + "Team_Defense_2025.csv"
+DEF_2024_PATH = "Team_Defense_2024.csv"
+DEF_2025_PATH = "Team_Defense_2025.csv"
 
 def normalize_team(name):
     name = str(name).strip()
@@ -159,8 +159,8 @@ import pandas as pd
 BASE = "C:/DraftKings/NFL/"
 
 # File paths
-OFF_RZ_PATH = BASE + "Teams_Off_Redzone.csv"
-DEF_RZ_PATH = BASE + "Teams_Def_Redzone.csv"
+OFF_RZ_PATH = "Teams_Off_Redzone.csv"
+DEF_RZ_PATH = "Teams_Def_Redzone.csv"
 
 # Team name normalization map
 TEAM_MAPPED = {
