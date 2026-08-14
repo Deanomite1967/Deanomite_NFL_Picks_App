@@ -1,6 +1,5 @@
 import streamlit as st
-from subscribers import init_db, add_subscriber, remove_subscriber, get_subscribers
-
+from subscribers import init_db, add_subscriber, remove_subscriber
 st.set_page_config(page_title="Subscribers", page_icon="📬", layout="wide")
 st.title("📬 Subscriber Management")
 
