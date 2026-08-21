@@ -927,7 +927,7 @@ def get_week_picks(week_number):
     print(feats[[ 
         "Team", "Opp",
         "spread_value",
-        "model_pred",
+        "model_pred_adj",
         "edge",
         "confidence",
         "recommended_pick",
