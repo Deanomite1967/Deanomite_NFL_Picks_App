@@ -1027,7 +1027,7 @@ if run_button:
         results[[
             "Team", "Opp",
             "spread_value",
-            "model_pred",
+            "model_pred-adj",
             "edge",
             "confidence",
             "recommended_pick",
@@ -1042,7 +1042,7 @@ if run_button:
     export_df = results[[ 
         "Team", "Opp",
         "spread_value",
-        "model_pred",
+        "model_pred_adj",
         "edge",
         "confidence",
         "recommended_pick",
