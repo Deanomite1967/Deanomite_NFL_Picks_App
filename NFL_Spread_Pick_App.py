@@ -1027,7 +1027,7 @@ if run_button:
         results[[
             "Team", "Opp",
             "spread_value",
-            "model_pred-adj",
+            "model_pred_adj",
             "edge",
             "confidence",
             "recommended_pick",
