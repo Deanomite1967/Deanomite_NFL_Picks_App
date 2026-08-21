@@ -1,6 +1,6 @@
 ﻿Team,Opp,Spread,Total,Adj
-NE,SEA,3.5,44.5,0
-SEA,NE,-3.5,44.5,3
+NE,SEA,3.5,44.5,3
+SEA,NE,-3.5,44.5,0
 SF,LA,3.5,48.5,0
 LA,SF,-3.5,48.5,0
 NO,DET,7,48.5,0
