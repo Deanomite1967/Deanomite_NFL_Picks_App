@@ -816,7 +816,7 @@ def get_week_picks_singleweek(week_number):
     print(results[[ 
         "Team", "Opp",
         "spread_value",
-        "model_pred",
+        "model_pred_adj",
         "edge",
         "confidence",
         "Adj_value",
