@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 st.set_page_config(page_title="Year Summary", page_icon="📈", layout="wide")
-st.title("📈 NFL Season Summary")
+st.title("📈 2026' NFL Season Summary")
 
 st.write("Season‑to‑date ATS performance based on all available weekly results.")
 
