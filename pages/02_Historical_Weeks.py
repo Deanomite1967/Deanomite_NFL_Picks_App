@@ -4,7 +4,7 @@ import os
 from io import BytesIO
 
 st.set_page_config(page_title="Historical Weeks", page_icon="📊", layout="wide")
-st.title("📊 Historical NFL Results")
+st.title("📊 2026' Historical NFL Results")
 
 st.write("View past weekly results (actual scores, margins, and ATS outcomes).")
 
