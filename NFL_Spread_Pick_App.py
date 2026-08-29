@@ -995,7 +995,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🏈 Deanomites NFL Weekly Picks & Teaser Engine")
+st.title("🏈 Deanomites NFL Weekly Picks & Teaser Selections")
 
 # -----------------------------
 # Sidebar Controls
