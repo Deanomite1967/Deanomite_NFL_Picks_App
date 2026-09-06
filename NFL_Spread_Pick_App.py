@@ -719,7 +719,7 @@ def add_recommended_pick(df):
         team = row["Team"]
         opp = row["Opp"]
         vegas = row["spread_value"]   # spread from TEAM perspective
-        model = row["model_pred"]
+        model = row["model_pred_adj"]
         edge = row["edge"]
 
         # Identify the favorite
