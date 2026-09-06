@@ -1024,7 +1024,7 @@ if run_button:
         use_container_width=True
     )
     
-    csv_data = export_df.to_csv(index=False).encode("utf-8")
+    csv_data = results.to_csv(index=False).encode("utf-8")
 
     st.download_button(
         label=f"Download NFL Week {week_number} Picks as CSV",
