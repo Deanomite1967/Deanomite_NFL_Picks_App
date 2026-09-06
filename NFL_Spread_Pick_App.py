@@ -1022,6 +1022,17 @@ if run_button:
             "teaser_flag"
         ]],
         use_container_width=True
+    
+    csv_data = export_df.to_csv(index=False).encode("utf-8")
+
+    st.download_button(
+        label=f"Download NFL Week {week_number} Picks as CSV",
+        data=csv_data,
+        file_name=f"Week{week_number}_NFL_Picks.csv",
+        mime="text/csv",
+        key=f"download_picks_csv_week_{week_number}"
     )
+    
+    export_df = results.copy()
 
-
+)
